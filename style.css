@@ -1,0 +1,42 @@
+.flex{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 900px;
+    height: 120px;
+}
+.blanco{
+    background-color: white;
+    padding: 0px;
+    width: 200px;
+    height: 110px;
+    display: flex;
+}
+.pequeño{
+    background-color: red;
+    height: 85px;
+    width: 170px;
+    display: block;
+    padding-right: px;
+}
+.grande{
+    background-color: red;
+    height: 85px;
+    width: 900px;
+    display: block;
+    padding-left: 270px;
+}
+.pr{
+    margin-right: 20px;
+    
+}
+.pl{
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+.pt{
+    align-items: flex-end;
+    margin-top: 0px;
+    margin-top: 10px;
+}
